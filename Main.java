@@ -1,19 +1,17 @@
-package my_java_project.Ders7;
+package my_java_project;
 
 public class Main {
 	
-public static void main (String[] args ){
+	public static void main (String[] args ){
 		
-		String Isim = "Ahmet";
 		
-		if (Isim == "Mehmet") {
-			System.out.println("Şahsın adı $Isım 'dir ");
-		}
-		else {
-			System.out.println("Şahsın adı Ahmet'tir ");
-		}
-				
+		int Sayi = 10;
+		String Tablename = "TabloA";
+		Boolean Sonuc = true;
+		double myDouble = 9.58;
+		float myFloat = 50.5f;	
 		
-	}
-
+	
+	}	
+	
 }
