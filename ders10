@@ -4,21 +4,25 @@ public class Ders10 {
 	
 	public static void main (String[] args ){
 		
-		int sayi1 = 10;
-		int sayi2 = 15;
-		int sayi3 = 20;
-	
-		int EnBuyukSayi = sayi1;
+		char grade = 'C';
+		switch (grade) {
 		
-		if (EnBuyukSayi < sayi2) {
-			EnBuyukSayi = sayi2;
-		}else if (EnBuyukSayi < sayi3) {
-			EnBuyukSayi = sayi3;
-		}else {
-			EnBuyukSayi = sayi1;
+		case  'A': System.out.print("Mükemmel" +" : "+ "Geçtiniz");
+		break;
+		
+		case  'B': System.out.print("Çok Güzel" +" : "+ "Geçtiniz");
+		break;
+		
+		case  'C': System.out.print("İyi" +" : "+ "Geçtiniz");
+		break;
+		
+		case  'D': System.out.print("Maalesef" +" : "+ "Başarısız");
+		break;
+	
+		default: 
+			
+			System.out.print("Geçersiz Not girdiniz");
 		}
-
-		System.out.print(" En büyük sayi " + EnBuyukSayi + " dır");
 		
 		
 	}	
