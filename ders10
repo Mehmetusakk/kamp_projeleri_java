@@ -1,0 +1,26 @@
+package Ders10;
+
+public class Ders10 {
+	
+	public static void main (String[] args ){
+		
+		int sayi1 = 10;
+		int sayi2 = 15;
+		int sayi3 = 20;
+	
+		int EnBuyukSayi = sayi1;
+		
+		if (EnBuyukSayi < sayi2) {
+			EnBuyukSayi = sayi2;
+		}else if (EnBuyukSayi < sayi3) {
+			EnBuyukSayi = sayi3;
+		}else {
+			EnBuyukSayi = sayi1;
+		}
+
+		System.out.print(" En büyük sayi " + EnBuyukSayi + " dır");
+		
+		
+	}	
+	
+}
